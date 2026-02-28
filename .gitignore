@@ -1,0 +1,21 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+docker-assessment-test
+
+# Test binary
+*.test
+
+# Coverage
+*.out
+coverage.out
+
+# Environment files
+.env
+.env.*
+
+# Editor / OS
+.DS_Store
