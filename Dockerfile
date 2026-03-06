@@ -13,7 +13,6 @@ WORKDIR /app
 
 COPY --from=builder /out/server /app/server
 
-ENV EMAIL=test@example.com
 EXPOSE 8080
 
 ENTRYPOINT ["/app/server"]
